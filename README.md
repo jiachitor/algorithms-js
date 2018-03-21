@@ -1,1 +1,1 @@
-# algorithms-js
+# js 算法集合

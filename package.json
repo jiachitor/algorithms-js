@@ -1,0 +1,20 @@
+{
+  "name": "play-parcel",
+  "version": "0.0.1",
+  "scripts": {
+    "dev:index": "parcel src/index/index.html -p 1234",
+    "dev:list": "parcel src/list/list.html -p 1234",
+    "build:index": "NODE_ENV=production parcel build src/index/index.html --out-dir build/index --public-url ./index",
+    "build:list": "NODE_ENV=production parcel build src/list/list.html --out-dir build/list --public-url ./list"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "lodash-es": "^4.17.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
